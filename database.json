@@ -1,0 +1,188 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "isAdmin": true,
+      "email": "AlexJ@gmail.com",
+      "username": "AlexJ",
+      "group": "104190d3-51ad-4feb-a29e-1851043f97c0"
+    },
+    {
+      "id": 2,
+      "isAdmin": false,
+      "email": "CharlieJ@gmail.com",
+      "username": "CharlieJ",
+      "group": "104190d3-51ad-4feb-a29e-1851043f97c0"
+    },
+    {
+      "id": 3,
+      "isAdmin": false,
+      "email": "TaylorJ@gmail.com",
+      "username": "TaylorJ",
+      "group": "104190d3-51ad-4feb-a29e-1851043f97c0"
+    },
+    {
+      "id": 4,
+      "isAdmin": false,
+      "email": "CoreyJ@gmail.com",
+      "username": "CoreyJ",
+      "group": "104190d3-51ad-4feb-a29e-1851043f97c0"
+    },
+    {
+      "email": "EWilliams@outlook.com",
+      "isAdmin": true,
+      "username": "EWilliams",
+      "id": 5,
+      "group": "6af27c03-45d3-488c-b840-8c279647c7f6"
+    },
+    {
+      "email": "JWilliams@outlook.com",
+      "isAdmin": false,
+      "username": "JWilliams",
+      "id": 6,
+      "group": "6af27c03-45d3-488c-b840-8c279647c7f6"
+    },
+    {
+      "username": "KerriJ",
+      "isAdmin": false,
+      "group": "104190d3-51ad-4feb-a29e-1851043f97c0",
+      "email": "KerriJ@gmail.com",
+      "id": 7
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "userId": 2,
+      "projectName": "Camping Trip",
+      "dateCompleted": "Sat Apr 29 2023 14:02:20 GMT-0500 (Central Daylight Time)",
+      "note": "I found out we don't need licenses for the kids to fish"
+    },
+    {
+      "id": 2,
+      "userId": 3,
+      "projectName": "College Application Process",
+      "dateCompleted": "",
+      "note": "*Do not submit anything to anyone official until mom or dad review it"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "projectName": "Science/Social Studies Fair",
+      "dateCompleted": "",
+      "note": "Check in with mom if you need help with any of this"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "projectName": "Holiday Season",
+      "dateCompleted": "",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "projectName": "Bathroom Reno Prep",
+      "dateCompleted": "",
+      "note": ""
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "projectId": 2,
+      "description": "Take your volunteer hour sheet to the counselor so it can go with your transcripts",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "projectId": 3,
+      "description": "Finish the rough draft of your presentation",
+      "isComplete": true
+    },
+    {
+      "id": 3,
+      "projectId": 1,
+      "description": "Confirm that the cabin is one where an RV can also be parked or see if they can switch us to one",
+      "isComplete": true
+    },
+    {
+      "id": 4,
+      "projectId": 4,
+      "description": "Get everything ready for both parties (RSVP, hostess gifts, Outfits to the cleaners, babysitters?)",
+      "isComplete": true
+    },
+    {
+      "id": 5,
+      "projectId": 2,
+      "description": "Finish going through the list of scholarships I sent you to see which you qualify for",
+      "isComplete": false
+    },
+    {
+      "id": 6,
+      "projectId": 3,
+      "description": "Ask your teacher if you can use that black display board or if it has to be white",
+      "isComplete": false
+    },
+    {
+      "id": 7,
+      "projectId": 1,
+      "description": "Get the kids fishing licenses",
+      "isComplete": true
+    },
+    {
+      "id": 8,
+      "projectId": 4,
+      "description": "Find out who is not coming in town and ship their gifts by the 15th",
+      "isComplete": false
+    },
+    {
+      "id": 9,
+      "projectId": 2,
+      "description": "Call or email Ms. Smith to see if she has your letter of recommendation ready",
+      "isComplete": true
+    },
+    {
+      "id": 10,
+      "projectId": 3,
+      "description": "Volcanoes or Vikings? You have to decide on one",
+      "isComplete": true
+    },
+    {
+      "id": 11,
+      "projectId": 1,
+      "description": "Check the life vests, whistles, fishing poles etc for the kayaking. Make sure we don't need to replace anything",
+      "isComplete": true
+    },
+    {
+      "id": 12,
+      "projectId": 4,
+      "description": "Make sure Taylor knows to request the 20th off for when Nana is here. (And make sure the kids have presents for her)",
+      "isComplete": false
+    },
+    {
+      "id": 13,
+      "projectId": 5,
+      "description": "Did we get both quotes back on the tub surround?",
+      "isComplete": true
+    },
+    {
+      "id": 14,
+      "projectId": 5,
+      "description": "Call Lowes and Home Depot to price the tiles and see if either are going to have them on sale",
+      "isComplete": false
+    },
+    {
+      "id": 15,
+      "projectId": 5,
+      "description": "rent the dumpster",
+      "isComplete": false
+    },
+    {
+      "id": 16,
+      "projectId": 5,
+      "description": "Find out if we need a permit if we do the work ourselves",
+      "isComplete": true
+    }
+  ]
+}
